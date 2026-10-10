@@ -27,7 +27,7 @@ document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   document.querySelector('.number').textContent = '?';
   //document.querySelector('.message').textContent = 'Start guessing...';
-  displayMessage('Start guessing...');
+  displayMessage('Hello Good Morning, Start guessing...');
   document.querySelector('.guess').value = '';
   document.querySelector('body').style.backgroundColor = '#000000';
   document.querySelector('.number').style.width = '15rem';
